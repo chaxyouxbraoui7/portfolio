@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Portfolio | Ayoub Chabraoui</title>
+  <meta name="description" content="Portfolio de Ayoub Chabraoui | Développeur Web Junior, projets, compétences et contact."/>
+  <link rel="icon" href="assets\fav-ico.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+  <canvas id="prt" aria-hidden="true"></canvas>
+<!-- header -->
+  <header>
+    <div class="container">
+      <nav>
+        <div class="name" aria-label="accueil">
+            <span class="dot" aria-hidden="true"></span><span>Ayoub Chabraoui</span>
+        </div>
+        <div class="nav-links">
+            <a href="#about">À propos</a><a href="#projects">Projets</a>
+            <a href="#skills">Compétences</a><a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+<!-- hero -->
+  <main>
+    <section class="hero container" id="home">
+      <div class="grid">
+        <div>
+            <h1>Bienvenue!</h1>
+            <span class="badge tilt" aria-label="profil">
+                <span class="pill">Développeur Web Junior | 🇲🇦</span>
+            </span>
+            <div class="goo">
+                <a class="btn" href="#projects">Voir mes projets</a>
+            </div>
+        </div>
+        <div>
+            <div class="card tilt" style="min-height:220px; display:flex; align-items:center; justify-content:center; text-align:center">
+                <div>
+                    <h3 style="margin-bottom:8px">Preferences</h3>
+                    <p style="margin:0;color:var(--color-3)">Accessibilité • Performance • Lisibilité du code • UI sobre</p>
+                </div>
+            </div>
+        </div>
+      </div>
+    </section>
+<!-- About -->
+    <section class="container" id="about">
+      <h2 class="section-title">À propos</h2>
+      <p class="section-sub">Titulaire d'une Licence en Sciences Mathématiques et Informatique,
+        je m'oriente vers le développement web (HTML, CSS, JavaScript, Python).
+        J'apprends vite, j'écris un code clair et je reste attentif aux détails pour proposer des interfaces polies
+        et respectueuses des utilisateurs.</p>
+    </section>
+<!-- Projects -->
+    <section class="container" id="projects">
+            <h2 class="section-title">Projets</h2>
+            <p class="section-sub">Voici quelques projets récents.
+              Chaque dépôt inclut un guide d'installation, des captures d'écran et une description concise.
+            </p>
+        <div class="cards-grp">
+<!-- 1 -->
+            <article class="card tilt reveal" tabindex="0">
+                <h3>Student Attendance System (FYP)</h3>
+                    <p>Systeme Python qui automatise la présence à partir d'images d'identifiants via OCR (PaddleOCR),
+                      validation CSV et génération de rapports.
+                    </p>
+                <div class="stack">
+                    <span class="tag">Python</span><span class="tag">PaddleOCR</span><span class="tag">OpenCV</span><span class="tag">LaTeX</span>
+                </div>
+                <div align="center">
+                    <a class="btn" href="https://github.com/chaxyouxbraoui7/student-presence-system" target="_blank" rel="noopener">Voir</a>
+                </div>
+            </article>
+<!-- 2 -->
+            <article class="card tilt reveal" tabindex="0">
+                <h3>GreenPanier (Website)</h3>
+                    <p>Un simple site web e-commerce où les utilisateurs peuvent parcourir les fruits et légumes,
+                      s'inscrire, se connecter et procéder au paiement, l'administrateur peut ajouter, mettre à jour et supprimer des produits.
+                    </p>
+                <div class="stack">
+                    <span class="tag">HTML</span><span class="tag">CSS</span>
+                    <span class="tag">JavaScript</span><span class="tag">PHP</span><span class="tag">MySQL</span>
+                </div>
+                <div align="center">
+                    <a class="btn" href="https://github.com/chaxyouxbraoui7/green-panier" target="_blank" rel="noopener">Voir</a>
+                </div>
+            </article>
+<!-- 3 -->
+            <article class="card tilt reveal" tabindex="0">
+                <h3>Dynamic Web Programming</h3>
+                    <p>Une compilation de toutes les activités pratiques et travaux liés au module de programmation web dynamique.</p>
+                <div class="stack">
+                    <span class="tag">HTML</span><span class="tag">CSS</span>
+                    <span class="tag">JavaScript</span><span class="tag">PHP</span><span class="tag">MySQL</span>
+                </div>
+                <div align="center">
+                    <a class="btn" href="https://github.com/chaxyouxbraoui7/dynamic-web-programming" target="_blank" rel="noopener">Voir</a>
+                </div>
+            </article>
+      </div>
+    </section>
+<!-- Skills -->
+    <section class="container" id="skills">
+        <h2 class="section-title">Compétences</h2>
+            <div class="skills reveal">
+            <div class="xip tilt">HTML</div>
+            <div class="xip tilt">CSS</div>
+            <div class="xip tilt">JavaScript</div>
+            <div class="xip tilt">Python</div>
+            <div class="xip tilt">MySQL</div>
+            <div class="xip tilt">Git & GitHub</div>
+            <div class="xip tilt">PHP</div>
+            <div class="xip tilt">C</div>
+            <div class="xip tilt">Java</div>
+            <div class="xip tilt">Flask</div>
+            <div class="xip tilt">SQL</div>
+            <div class="xip tilt">LaTeX</div>
+            <div class="xip tilt">BASH</div>
+            <div class="xip tilt">Markdown</div>
+            <div class="xip tilt">POWERSHELL</div>
+            <div class="xip tilt">OCR (PaddleOCR)</div>
+            <div class="xip tilt">UML</div>
+            <div class="xip tilt">Linux/Windows</div>
+      </div>
+    </section>
+<!-- Contact -->
+    <section class="container" id="contact">
+        <h2 class="section-title">Contact</h2>
+            <p class="section-sub">Je réponds volontiers aux messages courtois et détaillés
+              et je partage mes projets sur GitHub et reste joignable sur LinkedIn
+              Pour toute collaboration ou opportunité, n'hésitez pas à m'envoyer un message.</p>
+        <div class="cards-grp">
+
+            <div class="card tilt reveal">
+                <h3>Email | GitHub | LinkedIn <br></h3>
+                <div align="center">
+                    <h4><strong>mr.ayoub.chabraoui@gmail.com</strong></h4>
+                    <a class="btn contact-link" href="https://linkedin.com/in/ayoub-chabraoui" target="_blank">
+                        LinkedIn
+                    </a>
+                    <a class="btn contact-link" href="https://github.com/chaxyouxbraoui7" target="_blank">
+                        GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+<!-- game -->
+        <div class="card reveal" id="game-card">
+            <h3>Mini-jeu : Attraper la balle !</h3>
+                <div id="game-area" class="ball-card">
+                    <div id="dot" class="ball"></div>
+                </div>
+            <p id="score" style="color:var(--muted);margin:0;">Score : 0</p>
+        </div>
+      </div>
+    </section>
+  </main>
+<!-- Footer -->
+  <footer>
+    <div class="container">
+        <small><p>Je vous remercie d'avance pour votre temps et votre intérêt.</p>
+            &copy;<span id="year"></span> Ayoub Chabraoui</small>
+    </div>
+  </footer>
+  <script src="portfolio.js"></script>
+</body>
+</html>
